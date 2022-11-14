@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <H1>Social media хэрэглэгчдийн судалгаа</H1>
+            <p>Судалгаанд оролцсон таньд баярлалаа.</p>
+            <div class="form">
+                <form action="">
+                    <fieldset class="general">
+                        <legend>Ерөнхий мэдээлэл</legend>
+                        <div>
+                            <label for="username">Нэр</label>
+                            <input type="text" name="username" required minlength="2">
+                        </div>
+                        <div>
+                            <label for="mail">И-мэйл</label>
+                            <input type="email" name="mail" required>
+                        </div>
+                        <div>
+                            <label for="age">Нас</label>
+                            <input type="number" name="age" required max="120" min="13" maxlength="3">
+                        </div>
+                    </fieldset>
+                    <fieldset class="socialMed">
+                        <legend>Social media</legend>
+                        <div class="smOuter">
+                            <label for="usage">Та өдөрт хэдэн цаг social media ашигладаг вэ?</label>
+                            <select name="usage" id="smUsage">
+                                <option value="0">-- Select --</option>
+                                <option value="1">1 - 2 цаг</option>
+                                <option value="2">2 - 5 цаг</option>
+                                <option value="03">5 - 10 цаг</option>
+                            </select>
+                        </div>
+                        <div class="smOuter">
+                            <p>Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан авалт хийхийн альныг илүүд үздэг вэ?</p>
+                            <div>
+                                <input type="radio" name="prefer" id="" value="online">
+                                <label for="prefer">Онлайн худалдан авалт</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="prefer" id="" value="shop">
+                                <label for="prefer">Дэлгүүр орж худалдан авалт хийх</label>
+                            </div>
+                        </div>
+                        <div class="smOuter">
+                            <p>Та ямар social media platform ашигладаг вэ?</p>
+                            <div>
+                                <input type="checkbox" name="platform1" value="fb">
+                                <label for="platform1">Facebook</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="platform2" value="insta">
+                                <label for="platform2">Instagram</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="platform3" value="twit">
+                                <label for="platform3">Twitter</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="platform4" value="reddit">
+                                <label for="platform4">Reddit</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="platform5" value="snap">
+                                <label for="platform5">snapchat</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="platform6" value="quora">
+                                <label for="platform6">Quora</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="platform7" value="ytube">
+                                <label for="platform7">Youtube</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="platform8" value="other">
+                                <label for="platform8">Бусад</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <p class="rqst">Санал хүсэлт</p>
+                    <textarea cols="79" rows="5" maxlength="300" placeholder="Санал хүсэлтээ энд бичнэ үү..."></textarea>
+                    <input type="submit" class="submit" value="Илгээх"/>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

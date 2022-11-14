@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <form action="">
+            <div class="general">
+                <h1>General Information</h1>
+                <div class="name">
+                    <input type="text" class="fName" placeholder="First Name">
+                    <input type="text" class="LName" placeholder="Last Name">
+                </div>
+                <input type="email" class="email" placeholder="Email">
+                <input type="date" class="date" placeholder="Birthday">
+                <input type="text" class="company" placeholder="Company">
+                <select class="position" name="Position">
+                    <option value="0">Position</option>
+                    <option value="1">Student</option>
+                    <option value="2">Employed</option>
+                    <option value="3">Unemployed</option>
+                </select>
+            </div>
+            <div class="contact">
+                <h1>Contact Details</h1>
+                <input type="text" class="street" placeholder="Street">
+                <input type="text" class="addInfo" placeholder="Additional Information">
+                <input type="number" class="zip" placeholder="Zip Code">
+                <select class="place" name="Place">
+                    <option value="0">Place</option>
+                    <option value="1">Bayangol</option>
+                    <option value="2">Bayanzurkh</option>
+                    <option value="3">Other</option>
+                </select>
+                <select class="country" name="country">
+                    <option value="0">Country</option>
+                    <option value="1">Mongolia</option>
+                    <option value="2">USA</option>
+                    <option value="3">Other</option>
+                </select>
+                <input type="number" class="code" placeholder="Code" maxlength="6">
+                <input type="number" class="phoneNum" placeholder="Phone Number" maxlength="8" min="60000000" max="99999999">
+                <input type="checkbox" class="term" name="term">
+                <label for="term">I do accept the <a href="#">Terms and Conditions</a>of your site</label>
+                <input type="submit" name="Register Badge" id="button">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

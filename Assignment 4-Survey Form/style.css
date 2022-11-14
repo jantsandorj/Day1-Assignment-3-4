@@ -1,0 +1,75 @@
+/* global */
+body{
+    background: url(./back.avif), linear-gradient(90deg,#705894,#C56B69, #AE5C67);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    font-size: large;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .form{
+    background-color: #805f8768;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}  
+h1, p{
+    text-align: center;
+    margin: 0;
+}
+h1{
+    padding-top: 30px;
+}
+/* first fieldset */
+.general{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.general div{
+    display: flex;
+    flex-direction: column;
+}
+/* Second fieldset */
+.socialMed{
+    height: 500px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-evenly;
+}
+.socialMed p{
+    text-align: start;
+}
+select{
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+/* request fieldset */
+.rqst{
+    text-align: start;
+}
+textarea{
+    display: block;
+}
+textarea::placeholder{
+    padding: 20px 10px;
+}
+.submit{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
