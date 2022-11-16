@@ -73,3 +73,9 @@ textarea::placeholder{
     height: 30px;
     margin-top: 10px;
 }
+.general input:valid{
+    border: green 1px solid;
+}
+.general input:invalid{
+    border: red 1px solid;
+}
